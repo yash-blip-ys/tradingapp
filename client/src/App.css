@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000;
+  font-family: 'Inter', sans-serif;
+}
+
+body.dark {
+  background: linear-gradient(135deg, #0f2027 0%, #11998e 40%, #38ef7d 100%);
+  background-size: 400% 400%;
+  animation: gradientMove 16s ease-in-out infinite;
+  color: #f3f4f6;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.glass {
+  background: rgba(20, 20, 20, 0.7);
+  backdrop-filter: blur(16px) saturate(180%);
+  border-radius: 1rem;
+  border: 1.5px solid rgba(255,255,255,0.08);
+  box-shadow: 0 4px 32px 0 rgba(0,0,0,0.25);
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.glass:hover {
+  box-shadow: 0 8px 48px 0 #43e97b55;
+  transform: translateY(-2px) scale(1.02);
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #43e97b, #38ef7d, #11998e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.neon {
+  text-shadow: 0 0 8px #43e97b, 0 0 16px #38ef7d;
+}
+
+.btn-gradient {
+  background: linear-gradient(90deg, #43e97b, #38ef7d, #11998e);
+  color: #fff;
+  box-shadow: 0 2px 16px 0 #43e97b44;
+  transition: box-shadow 0.2s, transform 0.15s;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.btn-gradient:hover, .btn-gradient:focus {
+  box-shadow: 0 4px 32px 0 #43e97b88, 0 0 8px #38ef7d;
+  transform: scale(1.04);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #38ef7d 0%, #43e97b 100%);
+  border-radius: 8px;
+}
+
+.avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 9999px;
+  border: 2px solid #43e97b;
+  box-shadow: 0 0 8px #38ef7d88;
+  object-fit: cover;
+}
+.profile-dropdown {
+  background: rgba(30,30,40,0.95);
+  border-radius: 1rem;
+  box-shadow: 0 4px 32px 0 #43e97b44;
+  padding: 1rem;
+  min-width: 180px;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 3.5rem;
+  z-index: 50;
+  transition: opacity 0.2s;
+}
+
+.particle-bg {
+  position: fixed;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.chart-glow {
+  filter: drop-shadow(0 0 8px #43e97b) drop-shadow(0 0 16px #38ef7d);
+}
+
+.modal, .dropdown, .profile-dropdown {
+  transition: opacity 0.2s, transform 0.2s;
+} 
