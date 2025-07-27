@@ -1,35 +1,35 @@
-# 🚀 Advanced Fintech Trading App
+#  Advanced Fintech Trading App
 
 A full-featured, professional-grade cryptocurrency trading application with advanced features, real-time market data, and sophisticated trading algorithms.
 
-## ✨ Features
+##  Features
 
-### 🔐 Authentication & Security
+###  Authentication & Security
 - **User Registration & Login** - Secure JWT-based authentication
 - **Session Management** - Persistent login sessions
 - **Protected Routes** - Secure access to trading features
 
-### 📊 Live Market Data
+###  Live Market Data
 - **Real-time Crypto Prices** - Live price updates from CoinGecko API
 - **Interactive Price Charts** - Beautiful Chart.js visualizations
 - **Historical Data** - 1-day, 7-day, and 30-day price history
 - **Market Overview** - Multi-asset price monitoring
 
-### 💼 Advanced Portfolio Management
+###  Advanced Portfolio Management
 - **Real-time Portfolio Value** - Live calculation of total portfolio worth
 - **P&L Tracking** - Profit and loss calculations for each holding
 - **Performance Analytics** - Portfolio performance over time
 - **Best/Worst Performers** - Identify top and bottom performing assets
 - **Watchlist Management** - Track favorite cryptocurrencies
 
-### 🎯 Advanced Order Types
+###  Advanced Order Types
 - **Market Orders** - Immediate execution at current market price
 - **Limit Orders** - Execute at specified price or better
 - **Stop Orders** - Trigger orders at specific price levels
 - **Stop Loss** - Automatic sell orders to limit losses
 - **Take Profit** - Automatic sell orders to secure gains
 
-### 🤖 Trading Algorithms
+###  Trading Algorithms
 - **SMA Crossover Strategy** - Simple Moving Average crossover signals
 - **RSI Strategy** - Relative Strength Index overbought/oversold signals
 - **MACD Strategy** - Moving Average Convergence Divergence
@@ -37,26 +37,26 @@ A full-featured, professional-grade cryptocurrency trading application with adva
 - **Algorithm Backtesting** - Historical performance testing
 - **Real-time Signals** - Live trading recommendations
 
-### 📈 Risk Management
+###  Risk Management
 - **Position Size Limits** - Maximum position size controls
 - **Daily Loss Limits** - Maximum daily loss protection
 - **Stop Loss Percentage** - Automatic risk management
 - **Portfolio Analytics** - Risk metrics and performance indicators
 
-### 📋 Enhanced Order Management
+###  Enhanced Order Management
 - **Advanced Order History** - Comprehensive order tracking
 - **Filtering & Sorting** - Filter by status, type, asset, order type
 - **Order Cancellation** - Cancel pending orders
 - **Order Status Tracking** - Real-time order status updates
 
-### 🎨 Modern UI/UX
+###  Modern UI/UX
 - **Responsive Design** - Works on desktop, tablet, and mobile
 - **Dark/Light Theme** - Beautiful, modern interface
 - **Real-time Updates** - Live data without page refreshes
 - **Interactive Charts** - Professional-grade charting
 - **Intuitive Navigation** - Easy-to-use interface
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 ### Frontend
 - **React 18** - Modern React with hooks
@@ -76,7 +76,7 @@ A full-featured, professional-grade cryptocurrency trading application with adva
 - **CoinGecko API** - Cryptocurrency market data
 - **Custom Trading APIs** - Order management and portfolio tracking
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -181,7 +181,7 @@ A full-featured, professional-grade cryptocurrency trading application with adva
 - **Order History** - Complete trading history
 - **Order Cancellation** - Cancel pending orders
 
-## 📊 API Endpoints
+##  API Endpoints
 
 ### Authentication
 - `POST /api/auth/register` - User registration
@@ -207,7 +207,7 @@ A full-featured, professional-grade cryptocurrency trading application with adva
 - `POST /api/algorithms/signals` - Get algorithm signals
 - `POST /api/algorithms/backtest` - Backtest algorithms
 
-## 🎯 Future Enhancements
+##  Future Enhancements
 
 ### Planned Features
 - **Real-time WebSocket Updates** - Live price and order updates
@@ -228,7 +228,7 @@ A full-featured, professional-grade cryptocurrency trading application with adva
 - **API Rate Limiting** - Protect against abuse
 - **Enhanced Security** - 2FA, API keys, audit logs
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -236,18 +236,18 @@ A full-featured, professional-grade cryptocurrency trading application with adva
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
+##  Support
 
 For support and questions:
 - Create an issue in the GitHub repository
 - Contact the development team
 - Check the documentation
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **CoinGecko** - Cryptocurrency market data API
 - **Chart.js** - Professional charting library
@@ -256,4 +256,4 @@ For support and questions:
 
 ---
 
-**Happy Trading! 🚀📈** 
+**Happy Trading! ** 
